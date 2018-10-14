@@ -1,0 +1,12 @@
+# programme11
+check wether alphabet or not
+#include<stdio.h>
+int main()
+{
+  char c;
+  scanf("enter a character:%c"",&c);
+  if(c>='a'&&c<='z'||c>='A'&&c<='Z')
+  printf("entered character is alphabet");
+  else
+  printf("entered character is not an alphabet"");
+}
